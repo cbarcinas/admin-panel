@@ -14,67 +14,82 @@ import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
 const Sidebar = () => {
   return (
     // sidebar
-    <div className="flex-1 border-r-2 min-h-screen bg-white">
+    <div className="min-h-screen min-w-[11.2rem] max-w-[11.2rem] flex-1 border-r-2 bg-white">
       {/* Top Sidebar */}
-      <div className="h-[50px] flex items-center justify-center">
-        <span className="font-bold text-[20px] text-blue-500">DashAdmin</span>
+      <div className="flex h-[50px] items-center justify-center">
+        <span className="text-[20px] font-bold text-blue-500">DashAdmin</span>
       </div>
       <hr className="h-0" />
       {/* Center Sidebar */}
       <div className="pl-3">
         <ul>
-          <li>
-            <DashboardIcon />
-            <span>Dashboard</span>
+          <p className="mb-2 mt-4 rounded-sm bg-zinc-300 p-1 text-xs font-bold text-zinc-500">
+            MAIN
+          </p>
+          <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-200">
+            <DashboardIcon className="text-blue-600" />
+            <span className="mx-3">Dashboard</span>
           </li>
-          <li>
-            <PersonOutlineOutlinedIcon />
-            <span>User</span>
+          <p className="mb-2 mt-4 rounded-sm bg-zinc-300 p-1 text-xs font-bold text-zinc-500">
+            LISTS
+          </p>
+          <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-200">
+            <PersonOutlineOutlinedIcon className="text-blue-600" />
+            <span className="mx-3">User</span>
           </li>
-          <li>
-            <Inventory2OutlinedIcon />
-            <span>Products</span>
+          <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-200">
+            <Inventory2OutlinedIcon className="text-blue-600" />
+            <span className="mx-3">Products</span>
           </li>
-          <li>
-            <CreditCardIcon />
-            <span>Orders</span>
+          <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-200">
+            <CreditCardIcon className="text-blue-600" />
+            <span className="mx-3">Orders</span>
           </li>
-          <li>
-            <LocalShippingOutlinedIcon />
-            <span>Delivery</span>
+          <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-200">
+            <LocalShippingOutlinedIcon className="text-blue-600" />
+            <span className="mx-3">Delivery</span>
           </li>
-          <li>
-            <InsertChartOutlinedIcon />
-            <span>Stats</span>
+          <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-200">
+            <InsertChartOutlinedIcon className="text-blue-600" />
+            <span className="mx-3">Stats</span>
           </li>
-          <li>
-            <NotificationsActiveOutlinedIcon />
-            <span>Notifications</span>
+          <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-200">
+            <NotificationsActiveOutlinedIcon className="text-blue-600" />
+            <span className="mx-3">Notifications</span>
           </li>
-          <li>
-            <HealthAndSafetyOutlinedIcon />
-            <span>System Health</span>
+          <p className="mb-2 mt-4 rounded-sm bg-zinc-300 p-1 text-xs font-bold text-zinc-500">
+            SERVICE
+          </p>
+          <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-200">
+            <HealthAndSafetyOutlinedIcon className="text-blue-600" />
+            <span className="mx-3">System Health</span>
           </li>
-          <li>
-            <TopicOutlinedIcon />
-            <span>Logs</span>
+          <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-200">
+            <TopicOutlinedIcon className="text-blue-600" />
+            <span className="mx-3">Logs</span>
           </li>
-          <li>
-            <SettingsOutlinedIcon />
-            <span>Settings</span>
+          <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-200">
+            <SettingsOutlinedIcon className="text-blue-600" />
+            <span className="mx-3">Settings</span>
           </li>
-          <li>
-            <AccountCircleOutlinedIcon />
-            <span>Profile</span>
+          <p className="mb-2 mt-4 rounded-sm bg-zinc-300 p-1 text-xs font-bold text-zinc-500">
+            USER
+          </p>
+          <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-200">
+            <AccountCircleOutlinedIcon className="text-blue-600" />
+            <span className="mx-3">Profile</span>
           </li>
-          <li>
-            <LogoutOutlinedIcon />
+          <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-200">
+            <LogoutOutlinedIcon className="text-blue-600" />
             <span>Logout</span>
           </li>
         </ul>
       </div>
       {/* Bottom Sidebar */}
-      <div>Color Options</div>
+      <div className="m-3 flex items-center">
+        <div className="m-1 h-8 w-8 cursor-pointer rounded-md border-2 border-solid border-slate-500 bg-zinc-300"></div>
+        <div className="m-1 h-8 w-8 cursor-pointer rounded-md border-2 border-solid border-slate-700 bg-zinc-800"></div>
+      </div>
     </div>
   );
 };
