@@ -49,6 +49,9 @@ const Sidebar = () => {
             <LocalShippingOutlinedIcon className="text-blue-600" />
             <span className="mx-3">Delivery</span>
           </li>
+          <p className="mb-2 mt-4 rounded-sm bg-zinc-300 p-1 text-xs font-bold text-zinc-500">
+            USEFUL
+          </p>
           <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-200">
             <InsertChartOutlinedIcon className="text-blue-600" />
             <span className="mx-3">Stats</span>
