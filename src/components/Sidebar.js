@@ -16,21 +16,20 @@ const Sidebar = () => {
     // sidebar
     <div className="min-h-screen min-w-[11.2rem] max-w-[11.2rem] flex-1 border-r-2 bg-white">
       {/* Top Sidebar */}
-      <div className="flex h-[50px] items-center justify-center">
-        <span className="text-[20px] font-bold text-blue-500">DashAdmin</span>
+      <div className="flex h-[50px] items-center justify-center border-b-[1.5px]">
+        <span className="text-[19px] font-bold text-blue-500">DashAdmin</span>
       </div>
-      <hr className="h-0" />
       {/* Center Sidebar */}
-      <div className="pl-3">
+      <div className="pl-4">
         <ul>
-          <p className="mb-2 mt-4 rounded-sm bg-zinc-300 p-1 text-xs font-bold text-zinc-500">
+          <p className="mb-2 mt-4 rounded-l-sm bg-zinc-300 p-1 text-xs font-bold text-zinc-500">
             MAIN
           </p>
           <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-200">
             <DashboardIcon className="text-blue-600" />
             <span className="mx-3">Dashboard</span>
           </li>
-          <p className="mb-2 mt-4 rounded-sm bg-zinc-300 p-1 text-xs font-bold text-zinc-500">
+          <p className="mb-2 mt-4 rounded-l-sm bg-zinc-300 p-1 text-xs font-bold text-zinc-500">
             LISTS
           </p>
           <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-200">
@@ -49,7 +48,7 @@ const Sidebar = () => {
             <LocalShippingOutlinedIcon className="text-blue-600" />
             <span className="mx-3">Delivery</span>
           </li>
-          <p className="mb-2 mt-4 rounded-sm bg-zinc-300 p-1 text-xs font-bold text-zinc-500">
+          <p className="mb-2 mt-4 rounded-l-sm bg-zinc-300 p-1 text-xs font-bold text-zinc-500">
             USEFUL
           </p>
           <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-200">
@@ -60,7 +59,7 @@ const Sidebar = () => {
             <NotificationsActiveOutlinedIcon className="text-blue-600" />
             <span className="mx-3">Notifications</span>
           </li>
-          <p className="mb-2 mt-4 rounded-sm bg-zinc-300 p-1 text-xs font-bold text-zinc-500">
+          <p className="mb-2 mt-4 rounded-l-sm bg-zinc-300 p-1 text-xs font-bold text-zinc-500">
             SERVICE
           </p>
           <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-200">
@@ -75,7 +74,7 @@ const Sidebar = () => {
             <SettingsOutlinedIcon className="text-blue-600" />
             <span className="mx-3">Settings</span>
           </li>
-          <p className="mb-2 mt-4 rounded-sm bg-zinc-300 p-1 text-xs font-bold text-zinc-500">
+          <p className="mb-2 mt-4 rounded-l-sm bg-zinc-300 p-1 text-xs font-bold text-zinc-500">
             USER
           </p>
           <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-200">
