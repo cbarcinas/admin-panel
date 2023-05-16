@@ -14,22 +14,24 @@ import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
 const Sidebar = () => {
   return (
     // sidebar
-    <div className="min-h-screen min-w-[11.2rem] max-w-[11.2rem] flex-1 border-r-2 bg-white">
+    <div className="min-h-screen min-w-[11.5rem] max-w-[11.5rem] flex-1 border-r-2 bg-white font-Nunito">
       {/* Top Sidebar */}
       <div className="flex h-[50px] items-center justify-center border-b-[1.5px]">
-        <span className="text-[19px] font-bold text-blue-500">DashAdmin</span>
+        <span className="font-Nunito text-2xl font-bold text-blue-500">
+          dashadmin
+        </span>
       </div>
       {/* Center Sidebar */}
       <div className="pl-4">
         <ul>
-          <p className="mb-2 mt-4 rounded-l-sm bg-zinc-300 p-1 text-xs font-bold text-zinc-500">
+          <p className="mb-2 mt-4 rounded-l-sm bg-zinc-300 p-1 pl-3 text-xs font-bold text-zinc-500">
             MAIN
           </p>
           <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-200">
             <DashboardIcon className="text-blue-600" />
             <span className="mx-3">Dashboard</span>
           </li>
-          <p className="mb-2 mt-4 rounded-l-sm bg-zinc-300 p-1 text-xs font-bold text-zinc-500">
+          <p className="mb-2 mt-4 rounded-l-sm bg-zinc-300 p-1 pl-3 text-xs font-bold text-zinc-500">
             LISTS
           </p>
           <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-200">
@@ -48,7 +50,7 @@ const Sidebar = () => {
             <LocalShippingOutlinedIcon className="text-blue-600" />
             <span className="mx-3">Delivery</span>
           </li>
-          <p className="mb-2 mt-4 rounded-l-sm bg-zinc-300 p-1 text-xs font-bold text-zinc-500">
+          <p className="mb-2 mt-4 rounded-l-sm bg-zinc-300 p-1 pl-3 text-xs font-bold text-zinc-500">
             USEFUL
           </p>
           <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-200">
@@ -59,7 +61,7 @@ const Sidebar = () => {
             <NotificationsActiveOutlinedIcon className="text-blue-600" />
             <span className="mx-3">Notifications</span>
           </li>
-          <p className="mb-2 mt-4 rounded-l-sm bg-zinc-300 p-1 text-xs font-bold text-zinc-500">
+          <p className="mb-2 mt-4 rounded-l-sm bg-zinc-300 p-1 pl-3 text-xs font-bold text-zinc-500">
             SERVICE
           </p>
           <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-200">
@@ -74,7 +76,7 @@ const Sidebar = () => {
             <SettingsOutlinedIcon className="text-blue-600" />
             <span className="mx-3">Settings</span>
           </li>
-          <p className="mb-2 mt-4 rounded-l-sm bg-zinc-300 p-1 text-xs font-bold text-zinc-500">
+          <p className="mb-2 mt-4 rounded-l-sm bg-zinc-300 p-1 pl-3 text-xs font-bold text-zinc-500">
             USER
           </p>
           <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-200">
@@ -83,7 +85,7 @@ const Sidebar = () => {
           </li>
           <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-200">
             <LogoutOutlinedIcon className="text-blue-600" />
-            <span>Logout</span>
+            <span className="mx-3">Logout</span>
           </li>
         </ul>
       </div>
