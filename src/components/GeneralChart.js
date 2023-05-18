@@ -2,10 +2,8 @@ import React from 'react';
 
 const GeneralChart = () => {
   return (
-    <div>
-      <div>
-        <h1>general chart</h1>
-      </div>
+    <div className=" flex-[3] rounded-xl bg-red-400 p-3">
+      <h1>general chart</h1>
     </div>
   );
 };
