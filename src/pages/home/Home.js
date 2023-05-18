@@ -6,7 +6,7 @@ import GeneralChart from '../../components/GeneralChart';
 
 const Home = () => {
   return (
-    <div className="flex">
+    <div className="flex font-Nunito">
       <Sidebar />
       <div className=" flex-[6]">
         <Navbar />
