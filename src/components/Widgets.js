@@ -71,7 +71,8 @@ const Widgets = ({ type }) => {
   }
 
   return (
-    <div className="mr-5 flex h-[150px] min-w-[12rem] flex-1 justify-between rounded-xl p-3 font-Nunito shadow-2xl">
+    // min-w-[12rem]
+    <div className="mr-5 flex h-[150px] flex-1 justify-between rounded-xl p-3 font-Nunito shadow-2xl">
       {/* Left Side */}
       <div className="flex flex-col justify-between">
         <span className="text-sm font-bold text-zinc-500">{data.title}</span>

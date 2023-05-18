@@ -2,7 +2,7 @@ import Navbar from '../../components/Navbar';
 import Sidebar from '../../components/Sidebar';
 import Widgets from '../../components/Widgets';
 import FeaturedChart from '../../components/FeaturedChart';
-import GeneralChart from '../../components/GeneralChart';
+import Chart from '../../components/Chart';
 
 const Home = () => {
   return (
@@ -20,7 +20,7 @@ const Home = () => {
         {/* Charts */}
         <div className="flex gap-5 px-6 py-4">
           <FeaturedChart />
-          <GeneralChart />
+          <Chart />
         </div>
       </div>
     </div>
