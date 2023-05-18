@@ -14,12 +14,10 @@ import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
 const Sidebar = () => {
   return (
     // sidebar
-    <div className="min-h-screen min-w-[11.8rem] max-w-[11.8rem] flex-1 border-r-2 bg-fff font-Nunito">
+    <div className="min-h-screen min-w-[11.8rem] max-w-[11.8rem] flex-1 border-r-2 bg-white">
       {/* Top Sidebar */}
       <div className="flex h-[50px] items-center justify-center border-b-[1.5px]">
-        <span className="font-Nunito text-2xl font-bold text-blue-500">
-          dashadmin
-        </span>
+        <span className="text-2xl font-bold text-blue-500">dashadmin</span>
       </div>
       {/* Center Sidebar */}
       <div className="pl-4">
@@ -29,63 +27,63 @@ const Sidebar = () => {
           </p>
           <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-100">
             <DashboardIcon className="text-blue-500" />
-            <span className="mx-3">Dashboard</span>
+            <span className="mx-3 text-zinc-800">Dashboard</span>
           </li>
           <p className="mb-2 mt-4 rounded-l-sm bg-zinc-300 p-1 pl-3 text-xs font-bold text-zinc-500">
             LISTS
           </p>
           <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-100">
             <PersonOutlineOutlinedIcon className="text-blue-500" />
-            <span className="mx-3">User</span>
+            <span className="mx-3 text-zinc-800">User</span>
           </li>
           <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-100">
             <Inventory2OutlinedIcon className="text-blue-500" />
-            <span className="mx-3">Products</span>
+            <span className="mx-3 text-zinc-800">Products</span>
           </li>
           <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-100">
             <CreditCardIcon className="text-blue-500" />
-            <span className="mx-3">Orders</span>
+            <span className="mx-3 text-zinc-800">Orders</span>
           </li>
           <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-100">
             <LocalShippingOutlinedIcon className="text-blue-500" />
-            <span className="mx-3">Delivery</span>
+            <span className="mx-3 text-zinc-800">Delivery</span>
           </li>
           <p className="mb-2 mt-4 rounded-l-sm bg-zinc-300 p-1 pl-3 text-xs font-bold text-zinc-500">
             USEFUL
           </p>
           <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-100">
             <InsertChartOutlinedIcon className="text-blue-500" />
-            <span className="mx-3">Stats</span>
+            <span className="mx-3 text-zinc-800">Stats</span>
           </li>
           <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-100">
             <NotificationsActiveOutlinedIcon className="text-blue-500" />
-            <span className="mx-3">Notifications</span>
+            <span className="mx-3 text-zinc-800">Notifications</span>
           </li>
           <p className="mb-2 mt-4 rounded-l-sm bg-zinc-300 p-1 pl-3 text-xs font-bold text-zinc-500">
             SERVICE
           </p>
           <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-100">
             <HealthAndSafetyOutlinedIcon className="text-blue-500" />
-            <span className="mx-3">System Health</span>
+            <span className="mx-3 text-zinc-800">System Health</span>
           </li>
           <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-100">
             <TopicOutlinedIcon className="text-blue-500" />
-            <span className="mx-3">Logs</span>
+            <span className="mx-3 text-zinc-800">Logs</span>
           </li>
           <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-100">
             <SettingsOutlinedIcon className="text-blue-500" />
-            <span className="mx-3">Settings</span>
+            <span className="mx-3 text-zinc-800">Settings</span>
           </li>
           <p className="mb-2 mt-4 rounded-l-sm bg-zinc-300 p-1 pl-3 text-xs font-bold text-zinc-500">
             USER
           </p>
           <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-100">
             <AccountCircleOutlinedIcon className="text-blue-500" />
-            <span className="mx-3">Profile</span>
+            <span className="mx-3 text-zinc-800">Profile</span>
           </li>
           <li className="flex cursor-pointer items-center rounded-l-md p-2 hover:bg-blue-100">
             <LogoutOutlinedIcon className="text-blue-500" />
-            <span className="mx-3">Logout</span>
+            <span className="mx-3 text-zinc-800">Logout</span>
           </li>
         </ul>
       </div>
