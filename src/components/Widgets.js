@@ -74,7 +74,7 @@ const Widgets = ({ type }) => {
     <div className="mr-5 flex h-[150px] min-w-[12rem] flex-1 justify-between rounded-xl p-3 font-Nunito shadow-2xl">
       {/* Left Side */}
       <div className="flex flex-col justify-between">
-        <span className="text-sm font-bold text-zinc-400">{data.title}</span>
+        <span className="text-sm font-bold text-zinc-500">{data.title}</span>
         <span className="text-2xl font-light">
           {data.isMoney && '$'}
           {amount}
