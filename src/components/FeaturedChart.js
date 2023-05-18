@@ -4,7 +4,7 @@ import 'react-circular-progressbar/dist/styles.css';
 
 const FeaturedChart = () => {
   return (
-    <div className=" flex-[2] rounded-xl px-6 py-4 font-Nunito shadow-2xl">
+    <div className=" flex-[2] rounded-xl px-6 py-4 shadow-2xl">
       {/* Top */}
       <div className="flex items-center justify-between">
         <h1 className="text-xl">Total Revenue</h1>
