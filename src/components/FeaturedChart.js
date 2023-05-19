@@ -6,9 +6,9 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 const FeaturedChart = () => {
   return (
-    <div className="flex-[2] rounded-xl p-6 shadow-2xl">
+    <div className="flex-[2] rounded-xl shadow-2xl">
       {/* Top */}
-      <div className="flex items-center justify-between">
+      <div className=" flex items-center justify-between p-3">
         <h1 className="text-xl font-semibold text-zinc-500">Total Revenue</h1>
         <MoreVertIcon fontSize="small" className="cursor-pointer" />
       </div>
@@ -26,7 +26,7 @@ const FeaturedChart = () => {
           reiciendis!
         </p>
         {/* Bottom Total Amounts */}
-        <div className="mt-5 flex w-full items-center justify-between text-center">
+        <div className="mt-5 flex items-center justify-center gap-8 text-center">
           <div>
             <div className="text-sm text-zinc-600 ">Yesterday</div>
             <div className="mt-2 flex items-center text-sm font-semibold text-green-600">
