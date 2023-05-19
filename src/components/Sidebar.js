@@ -13,8 +13,8 @@ import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
 
 const Sidebar = () => {
   return (
-    // sidebar
-    <div className="min-h-screen min-w-[11.8rem] max-w-[11.8rem] flex-1 border-r-2 bg-white">
+    // min-w-[11.8rem] max-w-[11.8rem]
+    <div className="min-h-screen flex-1 border-r-2 bg-white">
       {/* Top Sidebar */}
       <div className="flex h-[50px] items-center justify-center border-b-[1.5px]">
         <span className="text-2xl font-bold text-blue-500">dashadmin</span>

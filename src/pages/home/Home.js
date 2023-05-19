@@ -8,10 +8,10 @@ const Home = () => {
   return (
     <div className="flex font-Nunito">
       <Sidebar />
-      <div className=" flex-[6]">
+      <div className="flex-[6]">
         <Navbar />
         {/* Widgets */}
-        <div className="flex gap-1 p-4">
+        <div className="flex gap-1 p-5">
           <Widgets type="user" />
           <Widgets type="order" />
           <Widgets type="earning" />
