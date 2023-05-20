@@ -18,7 +18,7 @@ const data = [
 
 const Chart = () => {
   return (
-    <div className=" flex-[4] rounded-xl text-zinc-500 shadow-2xl">
+    <div className=" flex-[5] rounded-xl text-zinc-500 shadow-2xl">
       <div className="p-3">
         <h2 className="text-xl font-semibold">Last 6 months</h2>
         <ResponsiveContainer width="100%" aspect={3 / 1}>
