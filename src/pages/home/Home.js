@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div className="flex font-Nunito">
       <Sidebar />
-      <div className="flex-[6] pr-5">
+      <div className="flex-[6] pr-2">
         <Navbar />
         {/* Widgets */}
         <div className="flex gap-5 p-5">
