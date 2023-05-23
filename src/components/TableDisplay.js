@@ -15,7 +15,7 @@ const TableDisplay = () => {
       customer: 'John Smith',
       date: '1 March',
       amount: 785,
-      method: 'Cash on Delivery',
+      method: 'Cash',
       status: 'Approved',
     },
     {
@@ -25,7 +25,7 @@ const TableDisplay = () => {
       customer: 'Michael Doe',
       date: '1 March',
       amount: 900,
-      method: 'Online Payment',
+      method: 'Online',
       status: 'Pending',
     },
     {
@@ -35,7 +35,7 @@ const TableDisplay = () => {
       customer: 'John Smith',
       date: '1 March',
       amount: 35,
-      method: 'Cash on Delivery',
+      method: 'Cash',
       status: 'Pending',
     },
     {
@@ -79,7 +79,7 @@ const TableDisplay = () => {
         <Table sx={{ minWidth: 650 }} aria-label="simple table">
           <TableHead>
             <TableRow>
-              <TableCell class="pl-3 text-left font-Nunito">
+              <TableCell class="pl-1 text-left font-Nunito">
                 Tracking ID
               </TableCell>
               <TableCell class="px-4 text-left font-Nunito">Product</TableCell>
