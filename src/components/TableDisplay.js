@@ -79,13 +79,15 @@ const TableDisplay = () => {
         <Table sx={{ minWidth: 650 }} aria-label="simple table">
           <TableHead>
             <TableRow>
-              <TableCell class="text-left font-Nunito">Tracking ID</TableCell>
-              <TableCell class="text-left font-Nunito">Product</TableCell>
-              <TableCell class="text-left font-Nunito">Customer</TableCell>
-              <TableCell class="text-left font-Nunito">Date</TableCell>
-              <TableCell class="text-left font-Nunito">Amount</TableCell>
-              <TableCell class="text-left font-Nunito">Method</TableCell>
-              <TableCell class="text-left font-Nunito">Status</TableCell>
+              <TableCell class="pl-3 text-left font-Nunito">
+                Tracking ID
+              </TableCell>
+              <TableCell class="px-4 text-left font-Nunito">Product</TableCell>
+              <TableCell class="px-4 text-left font-Nunito">Customer</TableCell>
+              <TableCell class="px-4 text-left font-Nunito">Date</TableCell>
+              <TableCell class="ext-left px-4 font-Nunito">Amount</TableCell>
+              <TableCell class="px-4 text-left font-Nunito">Method</TableCell>
+              <TableCell class="px-4 text-left font-Nunito">Status</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
@@ -93,7 +95,7 @@ const TableDisplay = () => {
               <TableRow key={row.id} class="border-b-2 border-b-zinc-300">
                 <TableCell class="py-4 pl-3 font-Nunito">{row.id}</TableCell>
                 <TableCell class="font-Nunito">
-                  <div className="flex items-center">
+                  <div className="flex items-center px-4">
                     <img
                       src={row.img}
                       alt={row.product}
@@ -102,12 +104,12 @@ const TableDisplay = () => {
                     {row.product}
                   </div>
                 </TableCell>
-                <TableCell class="font-Nunito">{row.customer}</TableCell>
-                <TableCell class="font-Nunito">{row.date}</TableCell>
-                <TableCell class="font-Nunito">$ {row.amount}</TableCell>
-                <TableCell class="font-Nunito">{row.method}</TableCell>
+                <TableCell class="px-4 font-Nunito">{row.customer}</TableCell>
+                <TableCell class="px-4 font-Nunito">{row.date}</TableCell>
+                <TableCell class="px-4 font-Nunito">$ {row.amount}</TableCell>
+                <TableCell class="px-4 font-Nunito">{row.method}</TableCell>
                 <TableCell
-                  class={`font-semibold ${
+                  class={`px-4 font-semibold ${
                     row.status === 'Approved'
                       ? 'text-green-600'
                       : 'text-yellow-500'
