@@ -13,7 +13,7 @@ const Home = () => {
         {/* Navbar */}
         <Navbar />
         {/* Widget Section */}
-        <div className="flex gap-5 p-5">
+        <div className="flex gap-2 p-5">
           <Widgets type="user" />
           <Widgets type="order" />
           <Widgets type="earning" />
