@@ -8,6 +8,7 @@ import TableDisplay from '../../components/TableDisplay';
 const Home = () => {
   return (
     <div className="flex font-Nunito">
+      {/* Sidebar */}
       <Sidebar />
       <div className="flex-[6] pr-2">
         {/* Navbar */}

@@ -4,11 +4,14 @@ import Datatable from '../../components/Datatable';
 
 const List = () => {
   return (
-    <div className="flex w-full">
+    <div className="flex font-Nunito">
+      {/* Sidebar */}
       <Sidebar />
-      <div className="flex-[6]">
+      <div className="flex-[6] pr-2">
         <Navbar />
-        <Datatable />
+        <div>
+          <Datatable />
+        </div>
       </div>
     </div>
   );
