@@ -121,7 +121,7 @@ const TableDisplay = () => {
                   {row.method}
                 </TableCell>
                 <TableCell
-                  class={`h-2 w-6 rounded-md px-4 font-semibold ${
+                  class={`h-2 w-6 rounded-md px-4 text-center font-semibold ${
                     row.status === 'Approved'
                       ? 'bg-green-100 text-green-600'
                       : 'bg-yellow-100 text-yellow-500'
