@@ -9,7 +9,9 @@ const List = () => {
       <Sidebar />
       <div className="flex-[6] pr-2">
         <Navbar />
-        <Datatable />
+        <div className="flex p-5">
+          <Datatable />
+        </div>
       </div>
     </div>
   );
