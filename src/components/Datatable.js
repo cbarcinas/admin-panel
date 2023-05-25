@@ -23,7 +23,7 @@ const Datatable = () => {
   ];
 
   return (
-    <div className=" p-4">
+    <div className="w-max p-4">
       <DataGrid
         rows={userRows}
         columns={userColumns.concat(actionColumn)}
