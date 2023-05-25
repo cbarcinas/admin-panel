@@ -10,10 +10,10 @@ const Datatable = () => {
       renderCell: (params) => {
         return (
           <div className="flex items-center gap-3">
-            <div className="cursor-pointer rounded-md bg-zinc-200 px-3 py-2 text-zinc-500">
+            <div className="cursor-pointer rounded-md border-[1px] border-zinc-400 px-2 py-1 text-zinc-500 hover:bg-zinc-300">
               View
             </div>
-            <div className="cursor-pointer rounded-md bg-red-200 px-3 py-2 text-red-500">
+            <div className="cursor-pointer rounded-md border-[1px] border-red-400 px-2 py-1 text-red-500 hover:bg-red-300">
               Delete
             </div>
           </div>
@@ -23,7 +23,7 @@ const Datatable = () => {
   ];
 
   return (
-    <div className="w-max p-4">
+    <div className="min-w-max">
       <DataGrid
         rows={userRows}
         columns={userColumns.concat(actionColumn)}
