@@ -27,22 +27,22 @@ const Single = () => {
               <div className="pl-5">
                 <h3 className="mb-2 text-zinc-700">John Smith</h3>
                 <div className="mb-2 flex flex-col text-sm text-zinc-700">
-                  <span className="itemKey">Email: </span>
-                  <span className="itemValue">jsmith@gmail.com</span>
+                  <span className="font-semibold">Email: </span>
+                  <span className="text-xs underline">jsmith@gmail.com</span>
                 </div>
                 <div className="mb-2 flex flex-col text-sm text-zinc-700">
-                  <span className="itemKey">Phone: </span>
-                  <span className="itemValue">+1 (702)834-1235</span>
+                  <span className="font-semibold">Phone: </span>
+                  <span className="text-xs underline">+1 (702) 834-1235</span>
                 </div>
                 <div className="mb-2 flex flex-col flex-wrap text-sm text-zinc-700">
-                  <span className="itemKey">Address: </span>
-                  <span className="itemValue">
-                    12345 alphabet dr, Las Vegas, 89102
+                  <span className="font-semibold">Address: </span>
+                  <span className="text-xs underline">
+                    12345 Alphabet Dr, Las Vegas, 89102
                   </span>
                 </div>
                 <div className="mb-2 flex flex-col text-sm text-zinc-700">
-                  <span className="itemKey">Country: </span>
-                  <span className="itemValue">United States</span>
+                  <span className="font-semibold">Country: </span>
+                  <span className="text-xs underline">United States</span>
                 </div>
               </div>
             </div>
