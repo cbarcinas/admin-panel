@@ -23,7 +23,7 @@ const Home = () => {
         {/* Charts Section */}
         <div className="flex gap-5 px-6 py-4">
           <FeaturedChart />
-          <Chart />
+          <Chart title={'Last 6 Months'} aspect={3 / 1} />
         </div>
         {/* List Section */}
         <div className="m-5 rounded-xl p-3 shadow-2xl">
