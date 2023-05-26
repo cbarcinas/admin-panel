@@ -16,12 +16,12 @@ const data = [
   { name: 'June', Total: 1200 },
 ];
 
-const Chart = () => {
+const Chart = ({ aspect,title }) => {
   return (
     <div className=" flex-[5] rounded-xl text-zinc-500 shadow-2xl">
       <div className="p-3">
-        <h2 className="text-xl font-semibold">Last 6 months</h2>
-        <ResponsiveContainer width="100%" aspect={3 / 1}>
+        <h2 className="text-xl font-semibold">{title}</h2>
+        <ResponsiveContainer width="100%" aspect={aspect}>
           <AreaChart
             width={730}
             height={250}
