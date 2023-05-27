@@ -10,7 +10,7 @@ const New = ({ title, inputs }) => {
         <Navbar />
         {/* Top Section */}
         <div className="m-5 max-w-[30rem]">
-          <div className="mb-5 bg-gradient-to-r from-blue-500 to-blue-600 p-3 text-center shadow-2xl">
+          <div className="rounded-t-md bg-gradient-to-r from-blue-500 to-blue-600 p-3 text-center shadow-2xl">
             <h1 className="text-xl font-semibold tracking-wide text-zinc-100">
               {title}
             </h1>
