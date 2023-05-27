@@ -2,45 +2,51 @@
 export const userInputs = [
   {
     id: 1,
-    label: 'Username',
+    label: 'Username :',
     type: 'text',
     placeholder: 'john_doe',
   },
+
   {
     id: 2,
-    label: 'Full Name',
-    type: 'text',
-    placeholder: 'John Doe',
-  },
-  {
-    id: 3,
-    label: 'Email',
-    type: 'mail',
-    placeholder: 'john_doe@gmail.com',
-  },
-  {
-    id: 4,
-    label: 'Phone',
-    type: 'text',
-    placeholder: '+1 234 567 89',
-  },
-  {
-    id: 5,
-    label: 'Password',
+    label: 'Password :',
     type: 'password',
     placeholder: 'password123',
   },
+
+  {
+    id: 3,
+    label: 'Full Name :',
+    type: 'text',
+    placeholder: 'John Doe',
+  },
+
+  {
+    id: 4,
+    label: 'Phone :',
+    type: 'text',
+    placeholder: '+1 234 567 89',
+  },
+
+  {
+    id: 5,
+    label: 'Email :',
+    type: 'mail',
+    placeholder: 'john_doe@gmail.com',
+  },
+
   {
     id: 6,
-    label: 'Address',
-    type: 'text',
-    placeholder: 'Elton St. 216 NewYork',
-  },
-  {
-    id: 7,
-    label: 'Country',
+    label: 'Country :',
     type: 'text',
     placeholder: 'USA',
+  },
+
+  {
+    id: 7,
+    label: 'Address :',
+    type: 'text',
+    placeholder: 'Elton St. 216 NewYork',
   },
 ];
 
@@ -48,32 +54,33 @@ export const userInputs = [
 export const productInputs = [
   {
     id: 1,
-    label: 'Title',
+    label: 'Title :',
     type: 'text',
     placeholder: 'Apple Macbook Pro',
   },
   {
     id: 2,
-    label: 'Description',
+    label: 'Price :',
+    type: 'text',
+    placeholder: '100',
+  },
+
+  {
+    id: 3,
+    label: 'Stock :',
+    type: 'text',
+    placeholder: 'in stock',
+  },
+  {
+    id: 4,
+    label: 'Description :',
     type: 'text',
     placeholder: 'Description',
   },
   {
-    id: 3,
-    label: 'Category',
+    id: 5,
+    label: 'Category :',
     type: 'text',
     placeholder: 'Computers',
-  },
-  {
-    id: 4,
-    label: 'Price',
-    type: 'text',
-    placeholder: '100',
-  },
-  {
-    id: 5,
-    label: 'Stock',
-    type: 'text',
-    placeholder: 'in stock',
   },
 ];
