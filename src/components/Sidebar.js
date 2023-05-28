@@ -1,15 +1,18 @@
-import DashboardIcon from '@mui/icons-material/Dashboard';
-import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
-import Inventory2OutlinedIcon from '@mui/icons-material/Inventory2Outlined';
-import CreditCardIcon from '@mui/icons-material/CreditCard';
-import LocalShippingOutlinedIcon from '@mui/icons-material/LocalShippingOutlined';
-import InsertChartOutlinedIcon from '@mui/icons-material/InsertChartOutlined';
-import NotificationsActiveOutlinedIcon from '@mui/icons-material/NotificationsActiveOutlined';
-import HealthAndSafetyOutlinedIcon from '@mui/icons-material/HealthAndSafetyOutlined';
-import TopicOutlinedIcon from '@mui/icons-material/TopicOutlined';
-import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
-import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
-import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
+import {
+  DashboardIcon,
+  PersonOutlineOutlinedIcon,
+  Inventory2OutlinedIcon,
+  CreditCardIcon,
+  LocalShippingOutlinedIcon,
+  InsertChartOutlinedIcon,
+  NotificationsActiveOutlinedIcon,
+  HealthAndSafetyOutlinedIcon,
+  TopicOutlinedIcon,
+  SettingsOutlinedIcon,
+  AccountCircleOutlinedIcon,
+  LogoutOutlinedIcon,
+} from '@mui/icons-material';
+import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
   return (
