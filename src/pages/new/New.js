@@ -1,8 +1,11 @@
+import { useState } from 'react';
 import Navbar from '../../components/Navbar';
 import Sidebar from '../../components/Sidebar';
 import DriveFolderUploadOutlinedIcon from '@mui/icons-material/DriveFolderUploadOutlined';
 
 const New = ({ title, inputs }) => {
+  const [file, setFile] = useState('');
+
   return (
     <div className="flex w-full font-Nunito">
       <Sidebar />
@@ -21,13 +24,18 @@ const New = ({ title, inputs }) => {
             <div className="flex flex-1 justify-center">
               <img
                 className="h-[100px] w-[100px] rounded-full object-cover"
-                src="https://icon-library.com/images/no-image-icon/no-image-icon-0.jpg"
+                src={
+                  file
+                    ? URL.createObjectURL(file)
+                    : 'https://icon-library.com/images/no-image-icon/no-image-icon-0.jpg'
+                }
                 alt="img"
               />
             </div>
             {/* Bottom right (form container) */}
             <div className="flex-[2] p-4">
               <form className="flex flex-col items-center justify-center">
+                {/* Form inner content */}
                 <div className="grid grid-cols-2">
                   {/* Map over form source for user/product inputs */}
                   {inputs.map((input) => (
@@ -54,9 +62,15 @@ const New = ({ title, inputs }) => {
                         className="ml-2 text-zinc-600"
                       />
                     </label>
-                    <input type="file" id="file" style={{ display: 'none' }} />
+                    <input
+                      onChange={(e) => setFile(e.target.files[0])}
+                      type="file"
+                      id="file"
+                      style={{ display: 'none' }}
+                    />
                   </div>
                 </div>
+                {/* end Form inner content */}
                 <button className="w-[150px] rounded-md bg-blue-500 py-2 text-lg font-semibold tracking-wide text-white transition-all duration-150 ease-in-out hover:scale-[104%]">
                   Submit
                 </button>
